@@ -1,0 +1,14 @@
+{
+	"autoload":{
+	  "psr-4":{
+	    "Framework\\": "src/Framework/"
+	  }
+	},
+	"require": {
+		"phpunit/phpunit": "^7.3"
+	},
+	"scripts":{
+	
+	  "test": "php vendor/phpunit/phpunit/phpunit.php --color=always"
+	}  
+}
